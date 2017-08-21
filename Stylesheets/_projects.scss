@@ -1,0 +1,37 @@
+#projects-hero{
+	background-image: url(../Assets/computer.jpg);
+}
+
+#project-1 {
+	background-image: url(../Assets/website.png)
+}
+
+#project-2 {
+	background-image:url(../Assets/reaction.png)
+}
+
+.container {
+	.row {
+		.projects {		
+			margin: 6% 6%;
+			background-size: cover;
+			background-position: center;
+			h3,p {
+				font-size: 1em;
+				line-heigt: 1;
+			}
+			.text {
+				width: 100%;
+				padding: 45px;
+				h3 {
+					font-size: 1em;
+					text-shadow: 0 0 3px ivory; 	
+				}
+			}
+		}
+	}
+}
+
+.container-projects {
+	margin: 0 10%;
+}
