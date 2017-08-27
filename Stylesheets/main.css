@@ -26,8 +26,8 @@ div.footer {
     letter-spacing: 2px; }
 
 #experiences-hero {
-  background-image: url(../Assets/computer.jpg);
-  background-position: top; }
+  background-image: url(../Assets/me.jpeg);
+  background-position: center; }
 
 .row #item-1 {
   background-image: url(../Assets/coffee.jpg);
@@ -273,11 +273,12 @@ input[type="button" i] {
 
 h1 {
   text-align: center;
+  text-transform: uppercase;
   margin: 0;
   color: #3A0000;
   letter-spacing: 4px;
   line-height: 2;
-  text-shadow: 5px 0px #F5C936; }
+  text-shadow: 2px 2px #F5C936; }
 
 ul, li {
   text-align: left; }
