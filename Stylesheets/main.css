@@ -1,3 +1,30 @@
+div.footer {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: #F5C936; }
+  div.footer h1 {
+    color: #3A0000;
+    text-align: center;
+    font-size: 17px;
+    text-shadow: 2px 2px 4px white !important; }
+  div.footer #social-links {
+    width: 100%;
+    padding: 20px; }
+    div.footer #social-links img {
+      width: 60px;
+      height: 60px;
+      margin: 15px; }
+  div.footer input[type="button" i] {
+    padding: 10px;
+    background-color: white;
+    font-weight: bolder;
+    box-shadow: 5px 5px #3A0000;
+    color: #3A0000;
+    font-weight: 900;
+    border: 0;
+    letter-spacing: 2px; }
+
 #experiences-hero {
   background-image: url(../Assets/computer.jpg);
   background-position: top; }
@@ -53,24 +80,6 @@
       .container-1 .row-1 .item p {
         line-height: 2;
         font-size: 1.3em; }
-
-.footer {
-  width: 100%;
-  padding: 20px;
-  text-align: center;
-  background-color: #3A0000; }
-  .footer h1 {
-    color: white;
-    text-shadow: none;
-    text-align: center;
-    font-size: 17px; }
-  .footer #social-links {
-    width: 100%;
-    padding: 20px; }
-    .footer #social-links img {
-      width: 60px;
-      height: 60px;
-      margin: 15px; }
 
 @media only screen and (max-width: 920px) {
   .row .item,
@@ -132,7 +141,8 @@
 
 body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  background-color: white; }
 
 .container {
   width: 100%;
@@ -182,13 +192,16 @@ nav {
   margin: 5% 28%;
   padding: 5%;
   background: black; }
-  .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content p, .content a, .content li {
+  .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content a, .content p, .content li {
     color: ghostwhite;
     text-shadow: none;
     line-height: 3;
     font-size: 1em;
     font-weight: 100;
     letter-spacing: 1px; }
+  .content a:hover {
+    background-color: yellow;
+    color: black; }
   .content .container h1 {
     font-size: x-large;
     line-height: 2;
@@ -293,5 +306,8 @@ ul, li {
       margin-bottom: 15%; }
     .container-1 .item {
       padding: 0; } }
+@media only screen and (max-width: 1355px) and (min-width: 590px) {
+  .hero .container input {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

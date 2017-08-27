@@ -1,3 +1,4 @@
+@import 'Stylesheets/footer';
 @import 'Stylesheets/experiences';
 @import 'Stylesheets/index';
 @import 'Stylesheets/projects';
@@ -7,14 +8,14 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
-
-
+ 
 body {
 	padding: 0;
 	margin: 0;
+	background-color: white;
 }
 
-.container {
+.container { 
 	width: 100%;
 	height: auto; 
 }
@@ -69,13 +70,17 @@ nav {
 	margin: 5% 28%;
 	padding: 5%;
 	background: black;
-	h1, h2, h3, h4, h5, h6, p, a, li {
+	h1, h2, h3, h4, h5, h6, a, p, li {
 		color: ghostwhite;
     text-shadow: none;
     line-height: 3;
     font-size: 1em;
     font-weight: 100;
     letter-spacing: 1px;
+	}
+	a:hover { 
+		background-color: yellow;
+		color: black;
 	}
 	.container {
 		h1 {
@@ -209,4 +214,14 @@ ul, li {
 			padding: 0;
 		}
 	}
+}
+
+@media only screen and (max-width: 1355px) and (min-width: 590px){
+	.hero{
+	.container{
+		input {
+			display: none;
+		}
+	}
+}
 }

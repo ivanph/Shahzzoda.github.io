@@ -2,8 +2,10 @@
 <html>	
 	<head>
 		
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
 		<link rel="stylesheet" type="text/css" href="Stylesheets/main.css">	
+		<script src="https://www.w3schools.com/lib/w3data.js"></script>
+		
 	</head>
 	<body>
 		<nav>
@@ -46,7 +48,7 @@
 					these events and continue to do so whenever I can.
 					</p>						
 					<hr>
-					<p>I also do one-two day volunteering for causes such as economic empowerment, animal welfare, community building, and others.</p>\
+					<p>I also do one-two day volunteering for causes such as economic empowerment, animal welfare, community building, and <a href="https://www.linkedin.com/in/shahzodadavlatova/">others</a>.</p>\
 					<hr>
 					<hr>
 					<h1>Other</h1>
@@ -81,16 +83,13 @@
 					</p>						
 				</div>	
 
-				<div class="footer">
-					<h1>Room for improvement on the website? Concerns? Questions? Comments? Need my resume?</h1>
-					<a href="contact.html"><input type="button" value="GET IN TOUCH"></a>
-					<div id="social-links">
-						<img src="Assets/github.png">
-						<img src="Assets/linkedin.png">
-						<img src="Assets/twitter.png">
-						<img src="Assets/instagram.png">
-					</div>
-				</div>			
+
+				<div w3-include-html="footer.html"></div>
+
+				<script>
+				w3IncludeHTML();
+				</script>
+				
 			</div>
 		</div>
 	</body>

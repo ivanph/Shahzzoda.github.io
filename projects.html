@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width" charset="utf-8"/>
+		<script src="https://www.w3schools.com/lib/w3data.js"></script>
 		<link rel="stylesheet" type="text/css" href="Stylesheets/main.css">	
 	</head>
-	<body>
+	<body style="background-color: white;">
 		<nav>
 			<a href="index.html">HOME /</a>
 			<a href="about-me.html">ABOUT /</a>
@@ -27,7 +28,7 @@
 		<div class="container">
 			<div class="row">
 				<div id="project-1" class="item projects">
-					<div class="overlay">
+					<a href="https://shahzzoda.github.io"><div class="overlay">
 						<div class="text">
 							<h3>This website</h3>
 							<hr>
@@ -36,10 +37,10 @@
 							mobilie friendly, and written in SASS and HTML.
 							</p>
 						</div>
-					</div>
+					</div></a>
 				</div>
 				<div id="project-2" class="item projects">
-					<div class="overlay">
+					<a href="https://shahzzoda.github.io/Reaction-Time-Game/"><div class="overlay">
 						<div class="text">
 							<h3>Reaction Tester</h3>
 							<hr>
@@ -48,22 +49,16 @@
 							fast you can click on the disapearing
 							circles.</p>
 						</div>
-					</div>			
+					</div></a>			
 				</div>
 			</div> 		
-		</div>
-		
+		</div>		
 	
-	<div class="footer">
-		<h1>Room for improvement on the website? Concerns? Questions? Comments? Need my resume?</h1>
-		<a href="contact.html"><input type="button" value="GET IN TOUCH"></a>
-		<div id="social-links">
-			<img src="Assets/github.png">
-			<img src="Assets/linkedin.png">
-			<img src="Assets/twitter.png">
-			<img src="Assets/instagram.png">
-		</div>
-	</div>		
+		<div w3-include-html="footer.html"></div>
+
+		<script>
+		w3IncludeHTML();
+		</script>
 
 	</body>	
 </html>
